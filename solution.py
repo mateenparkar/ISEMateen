@@ -70,7 +70,7 @@ def clean_str(string):
 import os
 import subprocess
 # Choose the project (options: 'pytorch', 'tensorflow', 'keras', 'incubator-mxnet', 'caffe')
-project = 'tensorflow'
+project = 'incubator-mxnet'
 path = f'datasets/{project}.csv'
 
 pd_all = pd.read_csv(path)
