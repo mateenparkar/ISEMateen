@@ -11,5 +11,5 @@ nltk
 # How to Run the Code
 
 ```bash
-python br_classification.py
+python solution.py
 ```
